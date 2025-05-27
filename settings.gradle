@@ -33,8 +33,10 @@ plugins {
 rootProject.name = 'module-ballerinax-postgresql.cdc.driver'
 
 include ':postgresql.cdc.driver-ballerina'
+include ':postgresql.cdc.driver-native'
 
 project(':postgresql.cdc.driver-ballerina').projectDir = file("ballerina")
+project(':postgresql.cdc.driver-native').projectDir = file("native")
 
 gradleEnterprise {
     buildScan {
