@@ -1,0 +1,23 @@
+[package]
+org = "ballerinax"
+name = "postgresql.cdc.driver"
+version = "@toml.version@"
+authors = ["Ballerina"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-postgresql.cdc.driver"
+license = ["Apache-2.0"]
+distribution = "2201.12.0"
+
+[platform.java21]
+graalvmCompatible = true
+
+[[platform.java21.dependency]]
+groupId = "io.ballerina.lib"
+artifactId = "postgresql.cdc.driver-native"
+version = "@toml.version@"
+path = "../native/build/libs/postgresql.cdc.driver-native-@project.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.debezium"
+artifactId = "debezium-connector-postgres"
+version = "@debezium.version@"
+path = "./lib/debezium-connector-postgres-@debezium.version@.jar"

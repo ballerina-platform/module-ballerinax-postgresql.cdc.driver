@@ -1,0 +1,22 @@
+[
+{
+  "name":"io.debezium.connector.postgresql.PostgresConnector",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.debezium.connector.postgresql.PostgresConnectorTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.debezium.connector.postgresql.PostgresSourceInfoStructMaker",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.debezium.connector.postgresql.snapshot.lock.NoSnapshotLock",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.debezium.connector.postgresql.snapshot.query.SelectAllSnapshotQuery",
+  "queryAllPublicMethods":true
+}
+]
