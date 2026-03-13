@@ -10,7 +10,7 @@ distribution-version = "2201.12.0"
 [[package]]
 org = "ballerinax"
 name = "postgresql.cdc.driver"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
 	{org = "ballerinax", name = "postgresql.driver"}
 ]
@@ -21,7 +21,7 @@ modules = [
 [[package]]
 org = "ballerinax"
 name = "postgresql.driver"
-version = "1.6.1"
+version = "1.6.2"
 modules = [
 	{org = "ballerinax", packageName = "postgresql.driver", moduleName = "postgresql.driver"}
 ]
