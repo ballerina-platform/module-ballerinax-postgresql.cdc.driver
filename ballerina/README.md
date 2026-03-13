@@ -4,7 +4,12 @@ The PostgreSQL Change Data Capture (CDC) driver enables capturing and tracking d
 
 ### Key Features
 
-- Real-time capturing of data changes (Insert, Update, Delete)\n- Seamless streaming of data modifications to downstream systems\n- Reliable tracking of database changes with minimal overhead\n- Support for various CDC mechanisms and configurations\n- Secure communication and efficient data handling\n- GraalVM compatible for native image builds
+- Real-time capturing of data changes (Insert, Update, Delete)
+- Seamless streaming of data modifications to downstream systems
+- Reliable tracking of database changes with minimal overhead
+- Support for various CDC mechanisms and configurations
+- Secure communication and efficient data handling
+- GraalVM compatible for native image builds
 
 
 This library provides the necessary Debezium drivers required for the CDC (Change Data Capture) connector in Ballerina.
