@@ -10,3 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+- Upgrade the bundled Debezium PostgreSQL connector to 3.5.1.Final.
+
+## [1.0.0]
+
+### Added
+- Introduce initial CDC specific drivers for PostgreSQL
+
+### Changed
