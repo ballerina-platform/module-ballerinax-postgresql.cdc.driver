@@ -14,7 +14,7 @@ It enables listening to changes in Postgres databases seamlessly within Ballerin
 | |     Version     |
 |:---|:---------------:|
 |Ballerina Language |  **2201.12.0**   |
-|Debezium Postgres Driver | **3.0.8.Final** |
+|Debezium Postgres Driver | **3.5.1.Final** |
 
 ## Usage
 
