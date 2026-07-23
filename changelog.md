@@ -15,6 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0]
 
 ### Added
-- Introduce initial CDC specific drivers for PostgreSQL
+- Introduce initial CDC-specific drivers for PostgreSQL
 
 ### Changed
